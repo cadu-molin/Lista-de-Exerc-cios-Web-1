@@ -1,0 +1,17 @@
+body {
+    margin: 0%;
+}
+
+#navbar {
+    background-color: rgb(19, 25, 33);
+    float: left;
+    width: 100%;
+}
+
+#logo {
+    float: left;
+}
+
+#carrinho {
+    float: right;
+}
