@@ -1,5 +1,8 @@
 body {
     margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #E3E6E6;
 }
 
 #header {
@@ -23,10 +26,6 @@ body {
     margin-top: 10px;
 }
 
-
-
-
-
 #pesquisa {
     flex-grow: 1;
     display: flex;
@@ -40,7 +39,7 @@ body {
 }
 
 #todos {
-    background-color: #F2F2F2;
+    background-color: #E3E6E6;
     height: 34px;
     padding: 8px;
     margin: 0% !important;
@@ -60,11 +59,6 @@ body {
     height: 100%;
 }
 
-
-
-
-
-
 #lupa {
     background-color: rgb(255, 174, 0);
     border-radius: 0px 5px 5px 0px;
@@ -76,6 +70,7 @@ body {
 }
 
 #navbar {
+    font-size: 11px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -106,10 +101,10 @@ body {
 }
 
 #body {
-    height: 100vh;
+    height: auto;
     margin-left: 70px;
     margin-right: 70px;
-    background: linear-gradient(#6F72A6, #F2F2F2);
+    background: linear-gradient(#6F72A6 60%, #E3E6E6);
 }
 
 #movebar {
@@ -149,4 +144,9 @@ body {
     justify-content: space-between;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+#body #imagens img {
+    width: 24%;
+    height: 340px;
 }
