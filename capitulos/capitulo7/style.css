@@ -1,17 +1,152 @@
 body {
-    margin: 0%;
+    margin: 0 auto;
 }
 
-#navbar {
-    background-color: rgb(19, 25, 33);
-    float: left;
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
+    background-color: rgb(19, 25, 33);
+}
+
+#logo-map-container {
+    display: flex;
+    align-items: center;
 }
 
 #logo {
-    float: left;
+    margin-right: 10px; /* Adiciona espaço entre o logo e o mapa */
 }
 
-#carrinho {
-    float: right;
+#mapa {
+    margin-top: 10px;
+}
+
+
+
+
+
+#pesquisa {
+    flex-grow: 1;
+    display: flex;
+    height: 34px;
+    margin-top: 5px;
+    margin-left: 14px;
+    background-color: rgb(255, 174, 0);
+    border-radius: 5px 5px 5px 5px;
+    justify-content: space-between;
+    border: 0px;
+}
+
+#todos {
+    background-color: #F2F2F2;
+    height: 34px;
+    padding: 8px;
+    margin: 0% !important;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#barrapesquisa {
+    flex-grow: 1;
+    height: 28px;
+    margin: 0% !important;
+}
+
+#span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+
+
+
+
+#lupa {
+    background-color: rgb(255, 174, 0);
+    border-radius: 0px 5px 5px 0px;
+}
+
+#complemento-carrinho-container {
+    display: flex;
+    align-items: center;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232f3e; 
+    color: lightgoldenrodyellow;
+    position: relative;
+}
+
+#textos {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+#textos label {
+    color: white;
+    padding: 5px 10px;
+}
+
+#textos label:first-child {
+    padding-left: 5px;
+}
+
+#oferta {
+    position: absolute;
+    right: 0;
+    padding: 5px 10px;
+}
+
+#body {
+    height: 100vh;
+    margin-left: 70px;
+    margin-right: 70px;
+    background: linear-gradient(#6F72A6, #F2F2F2);
+}
+
+#movebar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.material-symbols-outlined {
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#alexa {
+    display: flex;
+    align-items: center;
+}
+
+#textoalexa {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#texto {
+    font-size: 22px;
+}
+
+#texto img {
+    margin-top: 10px;
+}
+
+#imagens {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
 }

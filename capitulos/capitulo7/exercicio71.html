@@ -4,19 +4,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício 7</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    <div id="navbar">
-        <div id="logo">
-            <img src="images/amazon.png" alt="Logo">
-        </div>
-        <div>
-            <div>
-                <img src="" alt="">
+    <div id="header">
+        <div id="logo-map-container">
+            <div id="logo">
+                <img id="logoimg" src="images/amazon.png" alt="Logo">
+            </div>
+            <div id="mapa">
+                <div id="teste">
+                    <img src="images/mapa.png" alt="mapa">
+                </div>
             </div>
         </div>
-        <div id="carrinho">
-            <img src="images/carrinho.png" alt="carrinho">
+        <div id="pesquisa">
+            <select name="todos" id="todos"> <!-- À esquerda -->
+                <option value="Todos">Todos</option>
+            </select>
+            <input type="text" name="Pesquisa Amazon.com.br" id="barrapesquisa" placeholder="Pesquisa Amazon.com.br"> <!-- Ocupa o espaço central -->
+            <div id="span"> <!-- À direita -->
+                <span id="lupa" class="material-symbols-outlined">search</span>
+            </div>
+        </div>
+        <div id="complemento-carrinho-container">
+            <div id="complemento">
+                <img src="images/complemento.png" alt="complemento">
+            </div>
+            <div id="carrinho">
+                <img src="images/carrinho.png" alt="carrinho">
+            </div>
+        </div>
+    </div>
+    <div id="navbar">
+        <img id="menuimg" src="images/menu.png" alt="menu">
+        <div id="textos">
+            <label style="left: 0%;">Todos</label>
+            <label>Venda na Amazon</label>
+            <label>Eletrônicos</label>
+            <label>Ideias de Presente</label>
+            <label>Computadores</label>
+            <label>Brinquedos e Jogos</label>
+            <label>eBooks Kindle</label>
+            <label>Atendimento ao Cliente</label>
+            <label>Games</label>
+        </div>
+        <div id="oferta"><strong>Ofertas do Dia</strong></div>
+    </div>
+    <div id="body">
+        <div id="movebar">
+            <span class="material-symbols-outlined">
+                arrow_back_ios
+            </span>
+            <div id="alexa">
+                <div id="textoalexa">
+                    <div id="texto">
+                        R$ 80 off no Novo <br>
+                        Echo Pop com Alexa
+                    </div>
+                    <div>
+                        Dia dos Pais
+                    </div>
+                    <img src="images/frete.png" alt="">
+                </div>
+                <img src="images/alea.png" alt="">
+            </div>
+            <span class="material-symbols-outlined">
+                arrow_forward_ios
+            </span>
+        </div>
+        <div id="imagens">
+            <img src="images/produto1.png" alt="xadrez">
+            <img src="images/produto1.png" alt="xadrez">
+            <img src="images/produto2.png" alt="livro">
+            <img src="images/produto3.png" alt="remedio">
         </div>
     </div>
 </body>
