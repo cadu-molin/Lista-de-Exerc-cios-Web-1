@@ -19,7 +19,7 @@ body {
 }
 
 #logo {
-    margin-right: 10px; /* Adiciona espaço entre o logo e o mapa */
+    margin-right: 10px;
 }
 
 #mapa {
@@ -144,6 +144,7 @@ body {
     justify-content: space-between;
     margin-left: 10px;
     margin-right: 10px;
+    flex-direction: row;
 }
 
 #body #imagens img {
